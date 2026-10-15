@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: TravelBot
+
+server:
+  port: 9999
+
+telegram:
+  bot-token: ${TELEGRAM_BOT_TOKEN}
